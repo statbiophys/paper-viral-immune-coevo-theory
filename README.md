@@ -42,5 +42,5 @@ It should also be noted that for some parameters choices simulations are computa
 
 #### Files organization
 
-- In  [bash_scripts_handlers_github](./bash_scripts_handlers_github) there are three bash handlers as examples on how we: 1) sweeped through parameters, 2) ran the model C++ code handling extinctions and explosions and output directory structure, 3) performed analysis and plots on the model outputs. These scripts are meant to be run on a  computing cluster mounting a SLURM queuing engine.
+- In  [bash_scripts_handlers_github](./bash_scripts_handlers_github) there are three bash handlers as examples on how we: 1) sweeped through parameters ( [grid_parameters_slurm.sh](./bash_scripts_handlers_github/grid_parameters_slurm.sh)  ), 2) ran the model C++ code handling extinctions and explosions and output directory structure, 3) performed analysis and plots on the model outputs. These scripts are meant to be run on a  computing cluster mounting a SLURM queuing engine.
 
