@@ -39,7 +39,7 @@ The C++ code depends on the packages [FFTW](http://www.fftw.org/) and [NFFT](htt
 ##### Don't try this at home:
 The code is posted here for transparency, it is not meant to be run on local machines as it is. It may not run across platforms as some synthax is Linux specific and is not necessarily POSIX compliant. 
 Some snippets also rely on the specific folder structure on the machine. So if the reader wants to try and use this code they should be careful to change the code to reflect their OS and folder structure. 
-It should also be noted that for some parameters choices simulations are computationally heavy and need to be run with the aid of a computing cluster.
+It should also be noted that for some parameters choices simulations are computationally heavy bith in time and memory requirements, and need to be run with the aid of a computing cluster.
 
 #### Files organization
 
