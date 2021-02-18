@@ -1,0 +1,8 @@
+The colormap codes for the different values of D in units of r^2/\tau_i, from 10^(-13) (blue) to 2*10^(-6) (red).
+Note that D is estimated using the average mutation length in phenotype grid along the direction x, measured from simulations, instead of the input parameter \delta is the average of the gamma distribution used to draw mutation lengths. These differe due to the lattice discreteness.
+
+As for the other symbols:
+squares correspond to N_h = 10^8, circles N_h = 10^10 , triangles N_h = 10^12
+filled symbols correspond to F_0 = 1, therefore R_0=e \approx 2.7, empty F_0=3, R_0=e^3 \approx 20.
+smaller symbols correspond to M=1 and bigger symbols to M=5
+

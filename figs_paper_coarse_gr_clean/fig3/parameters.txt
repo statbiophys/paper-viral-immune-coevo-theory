@@ -1,0 +1,11 @@
+Parameter values 
+
+Panel A
+D \sim 3 10^-5 in units t_i/\delta^2, r = 35, so \tilde D in units t_i/r^2 is \sim 2 10^-8
+N_h = 10^8 , F_0 = 1 (R_0= e \approx 2.7) and M = 1
+
+Panel B
+D \sim 3 10^-3 in units t_i/\delta^2, r = 50, so \tilde D in units t_i/r^2 is \sim 10^-6
+N_h = 10^8 , F_0 = 1 (R_0= e \approx 2.7) and M = 5
+
+Panel D, same as fig2, with the same colormap.

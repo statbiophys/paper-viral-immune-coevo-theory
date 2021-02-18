@@ -1,0 +1,3 @@
+Parameter values 
+D \sim 3 10^-3 in units of t_i/\delta^2 , r = 1000, so \tilde D in units t_i/r^2 is \sim 3 10^-9
+ N_h = 10^8 , F_0 = 3 (R_0= e^3 \approx 20) and M = 1
