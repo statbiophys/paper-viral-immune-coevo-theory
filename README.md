@@ -21,7 +21,10 @@ A number of standard scientific python packages are needed for the numerical sim
 - [matplotlib](https://matplotlib.org/stable/index.html)
 
 
-### Structure/running the code
+### Files organization/running the code
+
+All files necessary to reproduce the figures is in [figs_paper_coarse_gr_clean](./figs_paper_coarse_gr_clean)
+The python scripts are in [python_code](./figs_paper_coarse_gr_clean/python_code), where [python_code](./figs_paper_coarse_gr_clean/python_code)
 
 Every folder contains a file plot.py which needs to be run to produce the figures. For some figures cosmetic changes were done in inkscape as a postprocessing step. In these cases the figures will not be reproduced precisely.
 
