@@ -23,10 +23,10 @@ A number of standard scientific python packages are needed for the numerical sim
 
 ### Files organization/running the code
 
-All files necessary to reproduce the figures is in [figs_paper_coarse_gr_clean](./figs_paper_coarse_gr_clean)
-The python scripts are in [python_code](./figs_paper_coarse_gr_clean/python_code), where [python_code](./figs_paper_coarse_gr_clean/python_code)
+All files necessary to reproduce the figures are in [figs_paper_coarse_gr_clean](./figs_paper_coarse_gr_clean) in the required relative positions.
+The python scripts are in [python_code](./figs_paper_coarse_gr_clean/python_code), where [lib](./figs_paper_coarse_gr_clean/python_code/lib) contains some plotting cosmetics definitions, and [plots](./figs_paper_coarse_gr_clean/python_code/plots) contains the scripts to run to produce the figures in the corresponding folder. Pre-processed data for Figs 2,3 and 4 can be found in the subdirectories of [fig2](./figs_paper_coarse_gr_clean/fig2).
 
-Every folder contains a file plot.py which needs to be run to produce the figures. For some figures cosmetic changes were done in inkscape as a postprocessing step. In these cases the figures will not be reproduced precisely.
+For some figures cosmetic changes were done in inkscape as a postprocessing step. In these cases the figures will not be reproduced precisely.
 
 ## Simulation and pre-processing code
 
