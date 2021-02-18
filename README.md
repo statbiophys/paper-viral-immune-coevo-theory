@@ -30,7 +30,7 @@ Every folder contains a file plot.py which needs to be run to produce the figure
 
 The simulation and analysis code uses a combination of C, C++, Bash and Python 2.7+. 
 
-The code is posted here for transparency, it is not meant to run across platforms as some synthax is Linux specific and is not necessarily POSIX compliant. 
+The code is posted here for transparency, it is not meant to be run on local machines. It may not run across platforms as some synthax is Linux specific and is not necessarily POSIX compliant. 
 Some snippets also rely on the specific folder structure on the machine. It should also be noted that for some parameters choices simulations are computationally heavy and need to be run with the aid of a computing cluster.
 
 The C++ code depends on the packages [FFTW](http://www.fftw.org/) and [NFFT](https://www-user.tu-chemnitz.de/~potts/nfft/) that need to be installed on the local machine and properly compiled (see Makefile).
