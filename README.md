@@ -33,7 +33,7 @@ For some figures cosmetic changes were done in inkscape as a postprocessing step
 
 The simulation and analysis code uses a combination of C, C++, Bash and Python 2.7+. 
 
-The C++ code depends on the packages [FFTW](http://www.fftw.org/) and [NFFT](https://www-user.tu-chemnitz.de/~potts/nfft/) that need to be installed on the local machine and properly compiled (see Makefile).
+The C++ code depends on the packages [FFTW](http://www.fftw.org/) and [NFFT](https://www-user.tu-chemnitz.de/~potts/nfft/) that need to be installed on the local machine and properly compiled (see [Makefile](./Cpp_code_github/makefile)).
 
 
 The code is posted here for transparency, it is not meant to be run on local machines as it is. It may not run across platforms as some synthax is Linux specific and is not necessarily POSIX compliant. 
@@ -44,4 +44,8 @@ It should also be noted that for some parameters choices simulations are computa
 
 - In  [bash_scripts_handlers_github](./bash_scripts_handlers_github) there are three bash handlers as examples on how we: 1) sweeped through parameters ([grid_parameters_slurm.sh](./bash_scripts_handlers_github/grid_parameters_slurm.sh)), 2) ran the model C++ code handling extinctions and explosions and output directory structure ([arrayjob_coarse_grained_slurm.sh](./bash_scripts_handlers_github/arrayjob_coarse_grained_slurm.sh)), 3) performed analysis and plots on the model outputs ([plot_all_slurm.sh
 ](./bash_scripts_handlers_github/plot_all_slurm.sh)). These scripts are meant to be run on a  computing cluster mounting a SLURM queuing engine.
+- In  [Cpp_code_github](./Cpp_code_github) there is the core C++ code for the model divided in multiple .c and .h (header) files. The [input](./Cpp_code_github/input_zuzia.dat) file is an example of input parameters to be passed to the program. The code saves various output files to track the system evolution over time, and to benchmark convolution algorithms speed and approximation errors.
+
+
+
 
