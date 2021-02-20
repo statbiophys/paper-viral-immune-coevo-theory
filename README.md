@@ -46,6 +46,10 @@ It should also be noted that for some parameters choices simulations are computa
 ](./bash_scripts_handlers_github/plot_all_slurm.sh)). These scripts are meant to be run on a  computing cluster mounting a SLURM queuing engine.
 - In  [Cpp_code_github](./Cpp_code_github) there is the core C++ code for the model divided in multiple .c and .h (header) files. The [input](./Cpp_code_github/input_zuzia.dat) file is an example of input parameters to be passed to the program. The code saves various output files to track the system evolution over time, and to benchmark convolution algorithms speed and approximation errors.
 
+## LICENSE
+
+Free use of the source code is granted under the terms of the GNU General Public License version 3 (GPLv3).
+
 
 
 
